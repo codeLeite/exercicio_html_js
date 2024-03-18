@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Validador EBAC</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Validador EBAC</h1>
+    <h2>Numérico</h2>
+    <form id="form-validacao">
+      <label for="campoA">Número A</label>
+      <input type="number" id="campoA" required placeholder="Insira um número">
+      <label for="campoB">Número B</label>
+      <input type="number" id="campoB" placeholder="Insira um número">
+      <p class="error-message">O número do campo B precisa ser maior que o do campo A</p>
+      <button id="btnValidar" type="submit">Validar</button>
+    </form>
+    <p class="success-message"></p>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
